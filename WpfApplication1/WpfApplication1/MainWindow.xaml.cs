@@ -22,7 +22,7 @@ namespace hhhhh
     {
         public MainWindow()
         {
-            InitializeComponent();
+            
 
         }
 
@@ -42,22 +42,12 @@ namespace hhhhh
             {
                 n = rnd.Next(1, 100);
             }
-            textBlock.Text = n.ToString();
+
+           
         }
 
-        private void checkBox1_Checked(object sender, RoutedEventArgs e)
-        {
+        
 
-        }
-
-        private void checkBox2_Checked(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void checkBox_Checked(object sender, RoutedEventArgs e)
-        {
-
-        }
+       
     }
 }
